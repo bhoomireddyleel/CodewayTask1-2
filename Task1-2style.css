@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#333; /* Light black shade for the entire background */
+  }
+  
+  #calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #000; /* Black border color for the calculator */
+    border-radius: 10px; /* Border radius for a rounded look */
+    background-color: #3498db; /* Blue background color for the calculator */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  
+  #display {
+    grid-column: span 4;
+    height: 40px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: right;
+    padding: 4px;
+    border: 2px solid #000; /* Black border color for the display */
+    border-radius: 8px; /* Border radius for a rounded display */
+    background-color: #fff; /* White background color for the display */
+    color: #000; /* Black text color for the display */
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000; /* Black border color for the buttons */
+    border-radius: 5px; /* Border radius for a rounded button look */
+    background-color: #fff; /* White background color for the buttons */
+    color: #000; /* Black text color for the buttons */
+  }
+  
+  button:hover {
+    background-color: #ddd; /* Light gray background color on hover */
+  }
+  
